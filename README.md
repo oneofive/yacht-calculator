@@ -1,4 +1,4 @@
-# 🎲 Yacht Dice Strategy HUD (macOS)
+<img width="197" height="548" alt="image" src="https://github.com/user-attachments/assets/08d0a986-1048-48de-be92-f321a81b7150" /># 🎲 Yacht Dice Strategy HUD (macOS)
 
 > **요트다이스 게임을 위한 실시간 전략 계산기 & 오버레이 유틸리티** > 플레이어의 현재 점수를 기반으로 '상단 보너스(63점)' 달성을 위한 최적의 주사위 조합을 실시간으로 분석해 추천합니다.
 
@@ -9,7 +9,8 @@
 ---
 
 ## 📸 Screenshots
-<img src="https://via.placeholder.com/600x400?text=App+Screenshot+Here" width="600">
+<img width="197" height="548" alt="image" src="https://github.com/user-attachments/assets/0c7c9d71-15a5-4ab4-98be-36515c401c81" />
+
 
 ---
 
@@ -17,12 +18,9 @@
 
 ### 1. Always-On-Top HUD (헤드업 디스플레이)
 - 게임 화면을 가리지 않으면서 항상 최상단에 떠 있는 **Floating Window** 구현
-- `NSWindow` 스타일링을 통해 타이틀 바를 제거하고 투명한 배경(`ultraThinMaterial`) 적용
-- 게임 중 방해되지 않도록 미니멀한 사이즈와 드래그 이동 지원
 
 ### 2. Smart Strategy Engine (승리 플랜 추천)
 - **백트래킹(Backtracking) 알고리즘**을 사용하여 남은 빈칸(Category)에 대한 최적의 시나리오 계산
-- 단순히 "점수가 부족하다"는 경고를 넘어, **"어떤 주사위를 몇 개(3개/4개/5개) 모아야 하는지"** 구체적인 조합 제시
 - 경우의 수를 난이도별(Triple, Quad, Yahtzee)로 분류하여 상위 3개 추천
 
 ### 3. Real-time Score Tracking
