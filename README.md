@@ -1,4 +1,4 @@
-<img width="197" height="548" alt="image" src="https://github.com/user-attachments/assets/08d0a986-1048-48de-be92-f321a81b7150" /># 🎲 Yacht Dice Strategy HUD (macOS)
+# 🎲 Yacht Dice Strategy HUD (macOS)
 
 > **요트다이스 게임을 위한 실시간 전략 계산기 & 오버레이 유틸리티** > 플레이어의 현재 점수를 기반으로 '상단 보너스(63점)' 달성을 위한 최적의 주사위 조합을 실시간으로 분석해 추천합니다.
 
