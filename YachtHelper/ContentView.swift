@@ -66,7 +66,7 @@ struct ContentView: View {
             
             Divider().background(Color.white.opacity(0.15))
             
-            // [2] 전략 추천 리스트 (높이 고정: 중요!)
+            // [2] 전략 추천 리스트
             // 내용이 있든 없든, 실패하든 성공하든 이 공간은 항상 110px을 차지합니다.
             VStack(alignment: .leading, spacing: 0) {
                 HStack {
@@ -114,7 +114,7 @@ struct ContentView: View {
                     Spacer()
                 }
             }
-            .frame(height: 110) // 여기가 핵심! 이 높이를 고정해서 아래 뷰가 안 딸려 올라오게 함
+            .frame(height: 110)
             .background(Color.white.opacity(0.05))
             
             Divider().background(Color.white.opacity(0.15))
@@ -146,7 +146,7 @@ struct ContentView: View {
             .buttonStyle(.plain)
             .padding(.bottom, 5)
         }
-        .frame(width: 200, height: 520) // 전체 높이를 520으로 늘려서 스크롤 없이 다 들어가게 함
+        .frame(width: 200, height: 520)
         .background(
             RoundedRectangle(cornerRadius: 16)
                 .fill(.ultraThinMaterial)
@@ -195,7 +195,7 @@ struct ScenarioRow: View {
                 .foregroundColor(index == 1 ? .yellow : .gray)
                 .frame(width: 18)
             
-            // 가로 스크롤은 유지 (내용이 길어질 수 있으므로)
+            // 가로 스크롤은 유지
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 4) {
                     ForEach(scenario.combination.keys.sorted(), id: \.self) { die in
